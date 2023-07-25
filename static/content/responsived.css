@@ -1,0 +1,109 @@
+/*Các xủ lý responsive cho site*/
+
+
+/*-----------Main Width-----------------*/
+.main1366{
+	max-width: 1920px;
+	min-width: 1300px;
+}
+.main1200{
+	max-width: 1200px;
+	min-width: 800px;
+}
+
+.main1100{
+	max-width: 1100px;
+	min-width: 800px;
+}
+
+.main1024{
+	max-width: 1024px;
+	min-width: 800px;
+}
+
+.main1200, .main1100, .main1024{
+	margin: 0 auto;
+	height: auto;
+}
+
+/*-----------ROWS ELEMENTS------------*/
+.row{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.row:after{
+	clear: both;
+}
+
+.row-heading{
+	background : #aaa;
+	border-bottom: 2px solid #666;
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.row-buttons{
+	padding: 12px 0;
+	border-bottom: 2px solid #666;
+	text-align: center;
+}
+
+.row-buttons input{
+	margin: 0 5px;
+}
+
+.row-map{
+	text-align: center;
+	border-top: 1px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+
+.row-map iframe{
+	width: 100%;
+	height: 500px;
+	border: 1px solid #ddd;
+}
+
+/*------------COLUMNS ELEMENTS---------------*/
+.c1{width: 8.33%;}
+.c2{width: 16.67%;}
+.c3{width: 25%;}
+.c4{width: 33.33%;}
+.c5{width: 41.67%;}
+.c6{width: 50%;}
+.c7{width: 58.33%;}
+.c8{width: 66.67%;}
+.c9{width: 75%;}
+.c10{width: 83.33%;}
+.c11{width: 91.67%;}
+.c12{width: 100%;}
+
+.c20{width: 20%;}
+.c40{width: 40%;}
+.c60{width: 60%;}
+.c80{width: 80%;}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c20, .c40, .c60, .c80{
+	float: left;
+}
+
+/*-----------------Space ELEMENTS----------------------*/
+
+.space{margin-left: 20px;} /*khoảng cách*/
+.space-top1{display: block; margin-top: 1px;} /*Khoảng cách đối với phần trên*/
+.space-top2{display: block; margin-top: 2px;}
+.space-top3{display: block; margin-top: 3px;}
+.space-top4{display: block; margin-top: 4px;}
+.space-top5{display: block; margin-top: 5px;}
+.space-top6{display: block; margin-top: 6px;}
+.space-top7{display: block; margin-top: 7px;}
+.space-top8{display: block; margin-top: 8px;}
+.space-top9{display: block; margin-top: 9px;}
+.space-top10{display: block; margin-top: 10px;}
+.space-top13{display: block; margin-top: 13px;}
+.space-top15{display: block; margin-top: 15px;}
+.space-top20{display: block; margin-top: 20px;}
+.space-top25{display: block; margin-top: 25px;}

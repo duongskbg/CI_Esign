@@ -1,0 +1,275 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(119, 18, 18, 0.3); 
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(119, 18, 18, 0.3); 
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('../../static/fonts/NotoSansKR-Black.otf');
+  }
+.row-main {
+    display: flex;
+}
+/* .header-main{
+    width: 900px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: whitesmoke;
+} */
+/* .container-1{
+    margin-top: 170px;
+} */
+.header-info {
+   
+    box-shadow: 0 4px 6px -6px rgb(216, 16, 16);
+}
+.header-info .description-info{
+    padding-bottom: 5px;
+}
+.name_dashboard{
+    width: auto;
+    text-shadow: 1px 1px #888888;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+    margin-top: 20px;
+}
+.Dashboard {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 10px 10px 10px #888888;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+.col-sm-8 {
+    background: whitesmoke;
+    width: 79%;
+    padding: 30px;
+}
+
+.row-card {
+    margin: 0 auto;
+}
+
+.card-1 {
+    min-width: 250px;
+    height: 323px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    box-shadow: 7px 7px 7px #888888;
+    border-radius: 10px;
+}
+.card-1:hover {
+   
+    box-shadow:  0 8px 16px 0 rgba(10, 196, 17, 0.9), 0 12px 40px 0 rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+}
+
+.img-main-tool {
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    margin-top: 20px;
+}
+
+.img-main-tool .img-tool {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.info-tool {
+    text-align: center;
+}
+
+.tool-btn {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.tool-btn .btn-tool {
+
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(blue, lightblue);
+    width: 125px;
+    height: 33px;
+    border-radius: 20px;
+    line-height: 33px;
+
+}
+.tool-btn .btn-tool:hover{
+    /* opacity: 0.3; */
+    color: red;
+}
+
+.col-2 {
+    width: 250px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+.user {
+    display: flex;
+    margin: 0;
+    width: 95%;
+    margin-left: 5px;
+
+}
+
+.user_img {
+    /* margin: auto; */
+    margin-top: 30px;
+    width: 30%;
+
+}
+
+.user_img .avatar_user {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+.name_user {
+    margin: 0;
+}
+
+.name_user .fullname {
+    line-height: 80px;
+    margin-top: 16px;
+    margin-left: 7px;
+}
+
+.user_tools {
+    margin-top: 40px;
+
+}
+
+.btn-tool {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.btn-tool img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.controll {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.controll .btn_user {
+    width: 100px;
+    margin: 10px;
+    height: 45px;
+    border: none;
+    background-image: linear-gradient(lightblue, blue);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.controll .btn_theme {
+    width: 150px;
+    margin: 10px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #ccc;
+    background-color: #fff;
+    border-radius: 20px;
+    line-height: 40px;
+}
+
+.btn_theme img {
+    width: 15px;
+    height: 15px;
+
+}
+/* col-2 */
+.card-controll{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #ccc;
+    box-shadow: 7px 7px 7px #ccc;
+    cursor: pointer;
+
+}
+.card-controll:hover{
+    box-shadow:  0 8px 16px 0 rgba(235, 61, 30, 0.9), 0 12px 40px 0 rgba(0, 0, 0, 0.11);
+
+}
+.card-controll .img_card
+{
+    width: 20%;
+
+}
+.card-controll .img_card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card-controll .info_card{
+    margin-left: 10px;
+    line-height: 0.3;
+    height: auto;
+    margin-bottom: 8px;
+    width: 60%;
+    
+}
+
+.div_logout{
+    width: 150px;
+    height: 100px;
+    background:#ccc;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 73px;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: none;
+
+}
+.div_logout button{
+    border: none;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+    background: blue;
+    color: #fff;
+}

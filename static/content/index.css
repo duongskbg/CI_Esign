@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    /*width: 100vw;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: stretch;*/
+    background-size: cover;
+    background: url("../images/background.png") no-repeat center;
+}
+.header{
+    /*width: 100%;*/
+    display: flex;
+    background-size: cover;
+    background: url("../images/header.png") no-repeat center;
+    height: 78px;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    font-size: 32px;
+    -webkit-box-reflect: below -10px linear-gradient(to bottom,transparent 50%,rgba(255,255,255,0.3));
+    color: white;
+}
+.article{
+    /*flex-grow: 1;*/
+    height: calc(100% - 78px);
+    /*width: 100%;*/
+}
+.one{
+    /*width: calc(100% - 20px);*/
+    /*margin: 10px;*/
+    /*border: 4px solid #0037ff;*/
+    position: relative;
+    padding: 32px;
+    display: inline-block;
+}
+.left_top{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: 40px;
+    border-left: 2px solid blue;
+    border-top: 2px solid blue;
+    z-index: -1;
+}
+.right_top{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-right: 2px solid blue;
+    border-top: 2px solid blue;
+    z-index: -1;
+}
+.left_bottom{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    height: 40px;
+    width: 40px;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid blue;
+    z-index: -1;
+}
+.right_bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    z-index: -1;
+}
+.one_title{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+.one_content{
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.two{
+    margin: 10px;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+}
+.two_title{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.two_content{
+    margin: 6px;
+    display: flex;
+}
+/*input{*/
+    /*font-size: 20px;*/
+    /*margin: 6px;*/
+    /*!*padding: 6px;*!*/
+/*}*/
+[type=button]{
+    font-size: 20px;
+    margin: 6px 16px;
+    color: white;
+    background: linear-gradient(to top,transparent,rgba(255,255,255,0.3));
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    cursor: pointer;
+}

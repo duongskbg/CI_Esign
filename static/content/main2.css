@@ -1,0 +1,179 @@
+.tab {
+	background: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+		0 2px 2px rgba(0, 0, 0, 0.12),
+		0 4px 4px rgba(0, 0, 0, 0.12),
+		0 8px 8px rgba(0, 0, 0, 0.12),
+		0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.tab .tab-header {
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+
+.tab .tab-header>div {
+	width: 300px;
+	text-align: center;
+	color: #888;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 500;
+	cursor: pointer;
+	font-size: 16px;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.tab .tab-header>div>i {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.tab .tab-header>div.active {
+	color: #00acee;
+}
+
+.tab .tab-body {
+	position: relative;
+	max-height: 600px;
+	min-height: 400px;
+	overflow-y: auto;
+	overflow-x: auto;
+	margin-bottom: 30px;
+}
+
+.tab .tab-body>div {
+	position: absolute;
+	opacity: 0;
+	margin-top: 5px;
+	transform: scale(0.9);
+	transition: opacity 500ms ease-in-out 0ms,
+		transform 500ms ease-in-out 0ms;
+	display: none;
+}
+
+.tab .tab-body>div.active {
+	top: 0px;
+	opacity: 1;
+	transform: scale(1);
+	height: 100%;
+	margin-top: 0px;
+	display: block;
+}
+
+.tbl1 {
+	width: 100%;
+	height: 100%;
+	transform: scale(0.6);
+	/* Thu nhỏ bảng xuống 80% kích thước ban đầu */
+	transform-origin: top left;
+	/* Đặt điểm gốc ở góc trên bên trái */
+	padding-top: 20px;
+	border-collapse: collapse;
+
+}
+
+/*.tbl1 th{
+  width: 170px;
+}
+.tbl1 td{
+  width: 150px;
+}*/
+
+
+.tbl1 th {
+	text-align: center;
+	font-size: 20px;
+}
+
+.tbl1 tr {
+
+	border: 1px solid black;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.tbl1 thead tr {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	background-color: lightblue;
+}
+
+#preview {
+	width: 70px;
+	height: 50px;
+	float: right;
+	background: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#preview:hover {
+	background-color: #00acee;
+
+}
+
+#btn_back {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+}
+
+#btn_send {
+	width: 50px;
+	height: 50px;
+	border: none;
+	background: transparent;
+	float: right;
+}
+
+#btn_send img {
+
+	width: 50px;
+	height: 50px;
+}
+
+
+.tbl_preview {
+	width: 100%;
+	border: 1px solid #000;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.tbl_preview thead {
+
+	background-color: lightblue;
+	border-bottom: 1px solid #000;
+
+}
+
+#btn_download {
+	width: 80px;
+	height: 35px;
+	border: none;
+	border-radius: 10px;
+	background-color: #00acee;
+	cursor: pointer;
+}
+
+#btn_download:hover {
+	width: 100px;
+	height: 35px;
+	font-size: 15px;
+	background-color: red;
+	color: #fff;
+}
+
+
+.file-download {
+
+	margin-bottom: 10px;
+}

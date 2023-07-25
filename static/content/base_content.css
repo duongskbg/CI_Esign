@@ -1,0 +1,337 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(47, 119, 18, 1); 
+}
+* a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+.content1{
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+}
+.controller{
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: auto;
+    background: MediumSeaGreen;
+    color: #fff;
+    align-items: center;
+
+}
+
+.tools:hover{
+    cursor: pointer;
+}
+
+.tools{
+    
+     width: auto;
+     display: flex;
+     align-items: center;
+     font-size: large;
+     
+}
+.tools .img_tool{
+    width: 20%;
+}
+.tools .img_tool img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    
+}
+.tools .name_tool{
+   margin-left: 10px;
+
+}
+.tools .name_tool h4{
+    margin-left: 20px;
+    font-weight: 100;
+    
+}
+.content2{
+    width: 80%;
+    height: auto;
+    border-left:1px solid #ccc ;
+    border-right:1px solid #ccc ;
+    position: absolute;
+    right: 0;
+}
+.info_main{
+    display: flex;
+   justify-content: center;
+   background-color: black;
+   color: #fff;
+   border-radius: 10px;
+   
+}
+.info_main .name_1{
+    width: 30%;
+    margin-right: 200px;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    background-color: #ccc;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main .view_excel{
+    width: 49%;
+    background-color: #fff;
+    height: 400px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.tbl_excel{
+    text-align: center !important;
+}
+#tbl_view thead tr{
+    width: 100%;
+    display: flex;
+    height: auto;
+    line-height:50px;
+    font-weight: 700;
+    background: cadetblue;
+    
+}
+
+#tbl_view thead tr th{
+    display: block;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+#tbl_view tbody {
+   display: block;
+   width: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   height: 400px;
+}
+
+#tbl_view tbody tr{
+    width: 100%;
+    display: flex;
+    line-height:50px;
+    border-bottom: 1px solid #ccc;
+   
+
+ }
+ #tbl_view tbody tr:hover{
+    background: yellow;
+ }
+ #tbl_view tbody tr td{
+    display: block;
+    width: 150px;
+    height: auto;
+ }
+
+.img_swap{
+    width: 20px;
+    height: 20px;
+   
+}
+.main .view_pdf{
+    width: 49%;
+    background-color: #fff;
+    height: 400px;
+}
+#pdfwindow{
+    width: 100%;
+    height: 400px;
+}
+
+.user {
+    display: flex;
+    margin: 0;
+    width: 90%;
+    margin-left: 5px;
+    justify-content: space-between;
+
+}
+
+.user_img {
+    /* margin: auto; */
+    margin-top: 30px;
+    width: 30%;
+
+}
+
+.user_img .avatar_user {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+.name_user {
+    margin: 0;
+    font-size: 20px;
+}
+
+.name_user .fullname {
+    line-height: 80px;
+    margin-top: 16px;
+    margin-left: 7px;
+}
+
+.user_tools {
+    margin-top: 40px;
+
+}
+
+.btn-tool {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.btn-tool:hover{
+    cursor: pointer;
+}
+
+.btn-tool img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.controll {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.controll .btn_user {
+    width: 100px;
+    margin: 10px;
+    height: 45px;
+    border: none;
+    background-image: linear-gradient(lightblue, blue);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.controll .btn_theme {
+    width: 150px;
+    margin: 10px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #ccc;
+    background-color: #fff;
+    border-radius: 20px;
+    line-height: 40px;
+}
+
+.btn_theme img {
+    width: 15px;
+    height: 15px;
+
+}
+.card-controll{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #ccc;
+    box-shadow: 7px 7px 7px #ccc;
+    cursor: pointer;
+
+}
+.card-controll:hover{
+    box-shadow:  0 8px 16px 0 rgba(235, 61, 30, 0.9), 0 12px 40px 0 rgba(0, 0, 0, 0.11);
+
+}
+.card-controll .img_card
+{
+    width: 20%;
+
+}
+.card-controll .img_card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card-controll .info_card{
+    margin-left: 10px;
+    height: auto;
+    width: 60%;
+    
+}
+.name_card h4{
+    padding-left: 20px;
+    font-size: 17px;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+}
+#content_view{
+    display: none;
+}
+.new_name_file{
+    display: none
+}
+
+
+.div_logout{
+    width: 150px;
+    height: 90px;
+    background:#ccc;
+    position: fixed;
+    top: 65px;
+    left: 210px;
+    margin-top: 73px;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: none;
+
+}
+.div_logout button{
+    border: none;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+    background: blue;
+    color: #fff;
+}
+
+.div_logout button:hover{
+    cursor: pointer;
+}

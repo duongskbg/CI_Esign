@@ -1,0 +1,277 @@
+#button_id {
+  margin-top: 20px;
+}
+
+.excel_sign {
+  font-size: 12pt;
+  font-family: Arial;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.excel_sign td,
+th {
+  padding: 5px;
+
+}
+
+.excel_sign th {
+  padding: 5px;
+  background: white;
+}
+
+/*.excel_sign tr:nth-child(even) {
+    background: #E0E0E0;
+}*/
+.excel_sign tr {
+  background: #E0E0E0;
+}
+
+.excel_sign tr:hover {
+  background: silver;
+  cursor: pointer;
+}
+
+/*.excel_sign tr:hover {
+    background: silver;
+    cursor: pointer;
+}*/
+
+
+.normal_sign {
+  font-size: 12pt;
+  font-family: Arial;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+/* .normal_sign td,
+th {
+  padding: 5px;
+  width: 200px;
+} */
+
+.normal_sign tr:nth-child(even) {
+  background: #E0E0E0;
+}
+
+.normal_sign tr:hover {
+  background: silver;
+  cursor: pointer;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.btn5-hover {
+  width: 130px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn5-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn5-hover:focus {
+  outline: none;
+}
+
+.btn5-hover.btn5 {
+  background-image: linear-gradient(to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn4-hover {
+  width: 130px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn4-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn4-hover:focus {
+  outline: none;
+}
+
+.btn4-hover.btn4 {
+  background-image: linear-gradient(to right,
+      #e90808,
+      #c22087,
+      #fe6804,
+      #ed3f65);
+  box-shadow: 0 4px 15px 0 rgba(76, 19, 200, 0.75);
+}
+
+
+.btn3-hover {
+  width: 130px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn3-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn3-hover:focus {
+  outline: none;
+}
+
+.btn3-hover.btn3 {
+  background-image: linear-gradient(to right,
+      #25e125,
+      #04f614,
+      #0ace5b,
+      #3ff409);
+  box-shadow: 0 4px 15px 0 rgba(90, 229, 15, 0.75);
+}
+
+.btn3:disabled {
+  background-image: linear-gradient(to right,
+      #5f615f,
+      #5f615f,
+      #5f615f,
+      #5f615f);
+      box-shadow: 0 4px 15px 0 rgba(222, 224, 220, 0.75);
+}
+
+.btn4:disabled {
+  background-image: linear-gradient(to right,
+      #5f615f,
+      #5f615f,
+      #5f615f,
+      #5f615f);
+      box-shadow: 0 4px 15px 0 rgba(222, 224, 220, 0.75);
+}
+#btn_sign {
+  height: 40px;
+  width: 70px;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: white;
+  background: Blue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#btn_sign:hover {
+  color: blueviolet;
+  background: lightblue;
+}
